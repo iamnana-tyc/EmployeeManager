@@ -1,17 +1,14 @@
 package com.iamnana.EmployeeManagerBackend.service;
 
-import com.iamnana.EmployeeManagerBackend.entity.Employee;
-
-import java.util.List;
+import com.iamnana.EmployeeManagerBackend.payload.EmployeeDTO;
+import com.iamnana.EmployeeManagerBackend.payload.EmployeeResponse;
 
 public interface EmployeeService {
-    Employee addEmployee(Employee employee);
+    EmployeeDTO createEmployee(EmployeeDTO employeeDTO);
 
-    List<Employee> getAllEmployees();
+    EmployeeResponse findAllEmployees(Integer pageNumber, Integer pageSize);
 
-    Employee getEmployeeById(Long id);
+    EmployeeDTO updateEmployee(EmployeeDTO employeeDTO, Long employeeId);
 
-    String deleteEmployeeById(Long id);
-
-    Employee updateEmployee(Long id, Employee employee);
+    EmployeeDTO deleteEmployee(Long employeeId);
 }
