@@ -120,7 +120,5 @@ GET /employees
 
 ## About Me
 
-This project is part of my journey to become a professional backend engineer. It demonstrates my understanding of core backend development with Spring Boot and REST APIs.
-
-You can find more projects on my GitHub:
-[https://github.com/iamnana-tyc](https://github.com/iamnana-tyc)
+This project is part of my journey to become a professional backend engineer.
+It demonstrates my understanding of core backend development with Spring Boot and REST APIs.
